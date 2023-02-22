@@ -23,12 +23,12 @@ module.exports = [
     routePath: "/resume",
     icon: <CgNotes />,
   },
-  {
-    id: "03",
-    name: "Works",
-    routePath: "/works",
-    icon: <FiCodesandbox />,
-  },
+  // {
+  //   id: "03",
+  //   name: "Works",
+  //   routePath: "/works",
+  //   icon: <FiCodesandbox />,
+  // },
   {
     id: "04",
     name: "Blogs",
