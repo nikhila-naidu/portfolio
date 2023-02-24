@@ -14,17 +14,29 @@ module.exports = [
           </a>
         </p> */}
 
-        <p>
-          <a
-            href='tel:+654 764 878'
-            className='text-gray-lite text-lg dark:text-[#A6A6A6] '
-          >
-            9398614418
-          </a>
-        </p>
+        <a
+          href='tel:9398614418'
+          className='text-gray-lite text-lg dark:text-[#A6A6A6] '
+        >
+          <p>+91 9398614418</p>
+        </a>
       </>
     ),
     bg: '#FCF4FF',
+  },
+
+  {
+    id: '03',
+    icon: '/images/contact/map 1.png',
+    title: 'Address ',
+    info: (
+      <>
+        <p className='text-gray-lite text-lg dark:text-[#A6A6A6] '>
+          <span>visakhapatnam</span>
+        </p>
+      </>
+    ),
+    bg: '#F2F4FF',
   },
   {
     id: '02',
@@ -42,25 +54,12 @@ module.exports = [
         </p> */}
 
         <p>
-          <a href=' nikhilanaidu.kaparapu@gmail.com'>
+          <a href=' nikhilanaidu.kaparapu@gmail.com' className=' text-sky-400'>
             nikhilanaidu.kaparapu@gmail.com
           </a>
         </p>
       </>
     ),
     bg: '#EEFBFF',
-  },
-  {
-    id: '03',
-    icon: '/images/contact/map 1.png',
-    title: 'Address ',
-    info: (
-      <>
-        <p className='text-gray-lite text-lg dark:text-[#A6A6A6] '>
-          visakhapatnam
-        </p>
-      </>
-    ),
-    bg: '#F2F4FF',
   },
 ];
