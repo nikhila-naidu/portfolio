@@ -1,12 +1,9 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 const Seo = ({ pageTitle }) => (
   <>
     <Head>
-      <title>
-        {pageTitle &&
-          `${pageTitle} || Bostami - Tailwind CSS  Personal Portfolio React Nextjs Template}`}
-      </title>
+      <title>{pageTitle && `${pageTitle} || Nikhila Portfolio`}</title>
     </Head>
   </>
 );
