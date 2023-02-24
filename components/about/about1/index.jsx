@@ -8,10 +8,10 @@ const index = () => {
       <div className='col-span-12 md:col-span-4'>
         {/* personal images for routePath page  */}
         <Image
-          className='w-full md:w-[330px] md:h-[400px] object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0'
-          src='/images/about/about.jpg'
-          width={300}
-          height={400}
+          className='square-full'
+          src='/images/about/about.jpeg'
+          width={700}
+          height={300}
           alt='routePath'
         />
       </div>

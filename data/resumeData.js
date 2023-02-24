@@ -74,7 +74,7 @@ module.exports = [
         place: (
           <>
             <p>
-              <a href='/todolist'>Todolist</a>
+              <a href='https://todo.nikhila.dev/'>Todolist</a>
             </p>
           </>
         ),
@@ -102,7 +102,7 @@ module.exports = [
         place: (
           <>
             <p>
-              <a href='/coffee connoisseur'>coffee</a>
+              <a href='/coffee-connoisseur'>coffee</a>
             </p>
           </>
         ),
