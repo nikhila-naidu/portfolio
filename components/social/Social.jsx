@@ -4,6 +4,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
   FaGithub,
+  FaInstagram,
 } from 'react-icons/fa';
 
 const Social = () => {
@@ -22,8 +23,8 @@ const Social = () => {
     },
     {
       id: 3,
-      link: 'https://dribbble.com/',
-      icon: <FaDribbble />,
+      link: 'https://instagram.com/nikhilanaidu_kaparapu',
+      icon: <FaInstagram />,
       iconClass: 'text-[#e14a84]',
     },
     {
