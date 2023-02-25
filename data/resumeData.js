@@ -73,9 +73,7 @@ module.exports = [
         title: ' Todo App ',
         place: (
           <>
-            <p>
-              <a href='https://todo.nikhila.dev/'>Todolist</a>
-            </p>
+            <a href='https://todo.nikhila.dev/'>Todolist</a>
           </>
         ),
         bg: '#FCF4FF',
