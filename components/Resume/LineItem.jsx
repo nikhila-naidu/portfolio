@@ -1,43 +1,43 @@
-import { Line } from "rc-progress";
-import React from "react";
+import { Line } from 'rc-progress';
+import React from 'react';
 
 const LineItem = ({ item }) => {
   const lineArray = [
     {
       id: 1,
-      color: "#FF6464",
-      name: "Web Design",
-      number: "80",
+      color: '#FF6464',
+      name: 'ReactJs and NextJs',
+      number: '80',
     },
     {
       id: 2,
-      color: "#9272D4",
-      name: "Mobile App ",
-      number: "95",
+      color: '#9272D4',
+      name: 'NodeJs ',
+      number: '95',
     },
     {
       id: 3,
-      color: "#5185D4",
-      name: "Illustrator",
-      number: "65",
+      color: '#5185D4',
+      name: 'Hasura',
+      number: '65',
     },
     {
       id: 4,
-      color: "#CA56F2",
-      name: "Photoshope",
-      number: "75",
+      color: '#CA56F2',
+      name: 'REST and GraphQL API',
+      number: '75',
     },
   ];
 
   return (
     <>
       {lineArray.map((item) => (
-        <div className=" mb-7" key={item.id}>
-          <div className="flex justify-between py-1">
-            <span className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
+        <div className=' mb-7' key={item.id}>
+          <div className='flex justify-between py-1'>
+            <span className=' text-base text-gray-lite font-semibold dark:text-[#A6A6A6]'>
               {item?.name}
             </span>
-            <span className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
+            <span className=' text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]'>
               {item?.number}%
             </span>
           </div>
